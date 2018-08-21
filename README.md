@@ -1,2 +1,6 @@
-# webpack-test
-webpack4 study
+# webpack4-test
+웹팩 실무 도입을 위한 예제입니다.
+예제를 실행하시려면 명령어 npm i를 눌러서(npm install) node_modules를 다운받아서 실행시켜주세요. 
+
+예제를 보시면 버그가 있습니다. 빌드를 실행시키면(webpack) dist 결과파일이 생성되는데, index.html에서 자동적으로 생성되는 외부파일이 해당 파일에만 들어가는 것이 아닌, 모든 빌드된 css, js파일이 외부파일로 들어있습니다. 
+해결 방법을 아시는 분은 글을 남겨주세요!
