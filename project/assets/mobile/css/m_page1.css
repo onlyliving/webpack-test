@@ -1,0 +1,26 @@
+/*m_page1.css*/
+.main-m-page1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    font-size:24px;
+    font-weight: 600;
+    color:#fff;
+    text-align: center;
+    background: #232a32;
+}
+.hide-text{
+    position:absolute;
+    left:-9999px;
+    top:-9999px
+}
+.main-m-page1__img-wrap{
+    display: block;
+    margin-top:16px
+}
+.main-m-page1__img-wrap p{
+    margin-top:8px;
+    font-size:14px
+}

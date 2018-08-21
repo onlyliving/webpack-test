@@ -1,0 +1,26 @@
+.index-main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    text-align: center;
+    background: url('../img/img-A.jpg') no-repeat center;
+    background-size:cover
+}
+.index-main > p{
+    margin:8px auto;
+    color:#333;
+    font-weight: 600;
+}
+.index-main__p{
+    font-size:24px;
+}
+.index-main__sub{
+    font-size:14px;
+}
+.hide-text{
+    position:absolute;
+    left:-9999px;
+    top:-9999px
+}
