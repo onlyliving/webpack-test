@@ -4,7 +4,7 @@
 
 import {common} from './common.js';
 import Swiper from 'swiper';
-// import 'swiper/dist/css/swiper.min.css'
+import 'swiper/dist/css/swiper.min.css'
 import '../css/reset.css';
 import '../css/service.css';
 

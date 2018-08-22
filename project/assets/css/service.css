@@ -23,7 +23,8 @@
     align-items: center;
 }
 .swiper-slide:nth-child(1){
-    background:skyblue;
+    background:url('../img/img-A.jpg') no-repeat center;
+    background-size:cover
 }
 .swiper-slide:nth-child(2){
     background:yellow;
